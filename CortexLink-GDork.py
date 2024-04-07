@@ -13,7 +13,7 @@ def google_search(domain):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Usage: python3 CortextLink-GDork.py [TARGET]")
+        print("Example Usage: python3 CortexLink-GDork.py google.com")
         sys.exit(1)
     
     target_domain = sys.argv[1]
